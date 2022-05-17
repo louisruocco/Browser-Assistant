@@ -2,6 +2,13 @@
 
 A browser assistant, where the user can speak to the browser, to open some web pages, or to have a brief chat with pleasantries. Make sure to enable microphone use in your browser first!
 
+## How to use it: 
+
+- Clone this repository
+- Opem in VS Code
+- Right click index.html and select "open with live server" (assuming you have this plugin installed)
+- Start speaking!
+
 ## Conversation Triggers:
 
 All these triggers will respond and/or open a web page automatically:
