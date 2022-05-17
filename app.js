@@ -18,7 +18,7 @@ recognition.onresult = function(event){
     openWebsite(transcript, "open YouTube please", "Opening Youtube as Requested", "https://www.youtube.com/");
     openWebsite(transcript, "open Google please", "Opening Google as Requested", "https://www.google.com/");
     openWebsite(transcript, "open Netflix please", "Opening Netflix as Requested", "https://www.netflix.com/browse");
-    talk(transcript, "hi", "Hey Louis");
+    talk(transcript, "hi", "Hey");
     talk(transcript, "how's it going", greetings[Math.floor(Math.random() * greetings.length)]);
     talk(transcript, "well", "what can i assist you with today");
     talk(transcript, "thanks", "you're welcome! shout if you need anything");
