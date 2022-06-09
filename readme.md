@@ -20,6 +20,7 @@ All these triggers will respond and/or open a web page automatically:
 - "open Youtube Please" (Opens Youtube in a new tab)
 - "open Netflix Please" (Opens Netflix in a new tab)
 - "open Google Please" (Opens Google in a new tab)
+- "Show me the Weather Please" (Opens BBC Weather where the user can search for the weather in their city)
 
 ## Technologies Used:
 
