@@ -11,16 +11,19 @@ A browser assistant, where the user can speak to the browser, to open some web p
 
 ## Conversation Triggers:
 
-All these triggers will respond and/or open a web page automatically:
-
 - "hi" (Will respond with "hey")
 - "how's it going?" (Will respond from an array of greetings, each one being random every time it is used)
 - "well" (Use it when the assistant asks you how you are, will respond with another question)
 - "thanks" (will trigger a "Your Welcome Response)
+- "why" (Use this if the assistant tells you they aren't doing so well)
+- "i'm sorry to hear that" (use this when the response from the above question has been answered)
+
+## Open Website Triggers:
+
 - "open Youtube Please" (Opens Youtube in a new tab)
 - "open Netflix Please" (Opens Netflix in a new tab)
 - "open Google Please" (Opens Google in a new tab)
-- "Show me the Weather Please" (Opens BBC Weather where the user can search for the weather in their city)
+- "Show me the Weather Please" (Opens BBC Weather)
 
 ## Technologies Used:
 

@@ -4,7 +4,8 @@ const recognition = new SpeechRecognition();
 const greetings = [
     "I'm ok thanks, what about you?", 
     "I'm not so good today actually", 
-    "All good, you?"
+    "All good, you?", 
+    "Smashing thanks"
 ]
 
 recognition.onstart = function(){
@@ -23,6 +24,8 @@ recognition.onresult = function(event){
     talk(transcript, "how's it going", greetings[Math.floor(Math.random() * greetings.length)]);
     talk(transcript, "well", "what can i assist you with today");
     talk(transcript, "thanks", "you're welcome! shout if you need anything");
+    talk(transcript, "why", "Having a bad day");
+    talk(transcript, "i'm sorry to hear that.", "thank you for your understanding, what can I do for you today")
 }
 
 function openWebsite(message, prompt, response, url){
